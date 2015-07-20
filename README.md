@@ -17,16 +17,16 @@
 - (void)download:(NSString *)urlString
         progress:(void(^)(NKProgressInfo* progressInfo))progressBlock
         complete:(void(^)(NSString *filePath,NSError *error))completion
-enableBackgroundMode:(BOOL)backgroundMode;```
+enableBackgroundMode:(BOOL)backgroundMode;
 
-```
+
 
 /**
  *  暂停正在进行的下载任务
  */
 - (void)pauseDownload:(NSString *)urlString;
-```
-```
+
+
 
 /**
  *  继续暂停的下载任务
@@ -34,21 +34,22 @@ enableBackgroundMode:(BOOL)backgroundMode;```
 - (void)retryDownload:(NSString *)urlString;```
 
 
-```
+
 /**
  *  取消一个下载任务
  */
 - (void)cancelDownload:(NSString *)urlString;
-```
 
-```
+
+
+
 /**
  *  取消所有下载任务
  */
-- (void)cancelAllDownload;```
+- (void)cancelAllDownload;
 
 
-```
+
 /**
  *  有的文件已经下载完毕或者下载了一部分，需要知道进度信息，调用此方法
  *
