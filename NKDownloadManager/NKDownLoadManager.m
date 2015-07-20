@@ -2,8 +2,8 @@
 //  NKDownLoadManager.m
 //  backGroundDownLoad
 //
-//  Created by nickchen on 15/7/17.
-//  Copyright (c) 2015年 nickqiao. All rights reserved.
+//  Created by Nickqiao on 15/7/17.
+//  Copyright (c) 2015年 https://github.com/nickqiao/NKDownloadManager/ All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

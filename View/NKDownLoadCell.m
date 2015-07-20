@@ -2,8 +2,8 @@
 //  NKDownLoadCell.m
 //  downLoad
 //
-//  Created by nickchen on 15/7/19.
-//  Copyright (c) 2015年 nickqiao. All rights reserved.
+//  Created by Nickqiao on 15/7/19.
+//  Copyright (c) 2015年 https://github.com/nickqiao/NKDownloadManager/ All rights reserved.
 //
 
 #import "NKDownLoadCell.h"
